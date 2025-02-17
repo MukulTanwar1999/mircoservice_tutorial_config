@@ -1,9 +1,12 @@
+spring:
+  application:
+    name: config-default  # Consistent naming style
+
 eureka:
   instance:
-    prefer-ip-address: true  # Correct indentation
+    prefer-ip-address: true
   client:
-    fetch-registry: true  # Correct indentation
+    fetch-registry: true
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
-
