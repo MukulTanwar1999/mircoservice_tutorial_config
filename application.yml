@@ -1,1 +1,9 @@
+eureka:
+  instance:
+    prefer-ip-address: true  # Correct indentation
+  client:
+    fetch-registry: true  # Correct indentation
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
 
