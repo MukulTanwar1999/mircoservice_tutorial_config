@@ -1,6 +1,3 @@
-spring:
-  application:
-    name: config-default  # Consistent naming style
 
 eureka:
   instance:
